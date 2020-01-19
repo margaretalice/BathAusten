@@ -6,6 +6,23 @@
       background-repeat: no-repeat;
      background-size: cover;
 }
+.navbar navbar-expand-lg{
+    background-color: #D5EIDI;
+}
+.nav-item {
+    padding: 8px;
+    color:#ffffff; background-color: #468b75;
+    font-family: Roboto;
+    border-style: outset;
+    width:8em;
+    margin-left:3em;
+}
+.nav-item a :hover,
+.nav-item s :active
+{
+    border-style:inset;
+    color:yellow;
+}
 #bath {
     background-color: #b4edab;
 }
@@ -14,6 +31,8 @@ h1 {
     text-decoration: underline;
 }
 .main {
-    font-weight: bold;
+    font-size: 1.5em;
+}
+p {
     font-size: 1.5em;
 }
