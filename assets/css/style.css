@@ -1,33 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
 #picture {
-    background :url("../images/pbridge.jpg");
-      background-position: center;
-      background-repeat: no-repeat;
-     background-size: cover;
-}
-.navbar navbar-expand-lg{
-    background-color: #D5EIDI;
+    background: url("../assets/images/pbridge.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .nav-item {
     padding: 8px;
-    color:#ffffff; background-color: #468b75;
+    color: #ffffff;
+    background-color: #468b75;
     font-family: Roboto;
     border-style: outset;
-    width:8em;
-    margin-left:3em;
+    width: 8em;
+    margin-left: 3em;
 }
 .nav-item a :hover,
-.nav-item s :active
-{
-    border-style:inset;
-    color:yellow;
+.nav-item a :active {
+    border-style: inset;
+    color: yellow;
 }
-#bath {
+.jumbotron {
     background-color: #b4edab;
-}
+ }
 h1 {
-    font-family:Libre Baskerville;
+    font-family: Libre Baskerville;
     text-decoration: underline;
 }
 .main {
