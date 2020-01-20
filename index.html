@@ -20,52 +20,97 @@
 
     <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
 
-        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
-        <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="main.js"></script>
 
-     <title>Visit Jane Austen's Bath</title>
+    <title>Visit Jane Austen's Bath</title>
 
-    </head>
+</head>
 
 <body>
     <header>
-    <section class="container-fluid" id="picture">
-        <div class="row">
-            <div class="col-md-12">
-                
+        <section class="container-fluid" id="picture">
+            <div class="row">
+                <div class="col-md-12">
+                </div>
             </div>
-        </div>
-    </section>
-  
-        <nav class="navbar navbar-expand-lg navbar-light bg-light>
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+        </section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark>
+         <img src ="assets/images/jane.jpg" alt="jane" style="width:45px">
+  <a class=" navbar-brand " href="# ">Navbar</a>
+   <img src ="assets/images/jane.jpg" alt="jane" style="width:45px">
+     <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#navbarNav " aria-controls="navbarNav " aria-expanded="false " aria-label="Toggle navigation ">
+    <span class="navbar-toggler-icon "></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+  <div class="collapse navbar-collapse " id="navbarNav ">
+    <ul class="navbar-nav ">
+      <li class="nav-item active ">
+        <a class="nav-link " href="# ">Home <span class="sr-only ">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About Bath</a>
+      <li class="nav-item ">
+        <a class="nav-link " href="# ">About Bath</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Images</a>
+      <li class="nav-item ">
+        <a class="nav-link " href="# ">Images</a>
       </li>
       </nav>
      
 
     </header>
+    <section class= "jumbotron" id="bath ">
+    <h1>Visit the World of Jane Austen's Bath</h1>
+    <p class="main ">Immerse yourself in the World of Jane Austen.Enjoy an afternoon tea at the Regency tea rooms which even Lady Catherine would approve of, perhaps indulging in some of Anne Elliot's homemade jam and scones. Visit the house where Jane Austen lived. During the Festival, watch His Majesty's Regiment of Foot parade over Poultney bridge. Minuet at the Summer Ball, or in the Assembly Rooms. Dress in period custume for a reception at the Roman Baths.</p>
+    <p>Who knows you may even meet Mr Darcy himself!</p>
+    </section>
     
+    <!--Carousel from Bootstrap4, W3schools tutorial-->
     
-    
-     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <section class="slide">
+    <div class="row">
+    <div="col-md-8">
+    <div id="demo" class="carousel slide" data-ride="carousel">
 
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="custume.jpg" alt="Custume">
+    </div>
+    <div class="carousel-item">
+      <img src="parade.jpg" alt="Parade">
+    </div>
+    <div class="carousel-item">
+      <img src="center.jpg" alt="Center">
+    </div>
+     <div class="carousel-item">
+      <img src="tea.jpg" alt="Tea">
+    </div>
+  </div>
+  
+   <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+    
+    
+    
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 " crossorigin="anonymous "></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js " integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy " crossorigin="anonymous "></script>
 
     <footer>
 
@@ -79,7 +124,7 @@
 
     function  initMap () {
 
-         var map=new google.maps.Map(document.getElementById("map"), {
+         var map=new google.maps.Map(document.getElementById("map "), {
 
             zoom:8,
 
@@ -97,11 +142,11 @@
 
     </script>
 
-     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js ">
 
     </script>
 
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZnnbXgMEI7YEuK7GlisLMQEU8_V3rgTo&callback=initMap">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZnnbXgMEI7YEuK7GlisLMQEU8_V3rgTo&callback=initMap ">
 
     </script>
 
